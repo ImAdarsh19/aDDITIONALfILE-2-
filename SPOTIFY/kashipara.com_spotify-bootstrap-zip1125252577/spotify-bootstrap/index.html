@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-12 sf-gray-primary">
+          <h4 class="my-4 label font-size-20"><span class="fa fa-file-image-o mr-2 font-size-20"></span>NAME/SLOGAN</h4>
+          <!-- Menu -->
+          <ul class="list-group mt-3 mb-4">
+            <li class="list-group-item sf-list-group-item active">
+              <span class="fa fa-home mr-2"></span>HOME
+           </li>
+            <li class="list-group-item sf-list-group-item">
+              <span class="fa fa-search mr-2"></span>SEARCH
+           </li>
+            <li class="list-group-item sf-list-group-item">
+              <span class="fa fa-folder mr-2"></span>YOUR LIBRARY
+           </li>
+          </ul>
+          <ul class="list-group mb-4">
+            <li class="list-group-item sf-list-group-item"><span class="fa fa-plus mr-2"></span>Create Playlist</li>
+            <li class="list-group-item sf-list-group-item"><span class="fa fa-music mr-2"></span>Recently Listened</li>
+            <li class="list-group-item sf-list-group-item"><span class="fa fa-heart mr-2"></span>Songs You Like</li>
+            <li class="list-group-item sf-list-group-item"><span class="fa fa-list-ul mr-2"></span>Albums</li>
+            <li class="list-group-item sf-list-group-item"><span class="fa fa-user-circle-o mr-2"></span>Artists</li>
+            <li class="list-group-item sf-list-group-item"><span class="fa fa-podcast mr-2"></span>Podcusts</li>
+          </ul>
+          <!-- List os Songs You May Like -->
+          <label class="menu-sublist-song mb-3">List of Song You May Like</label>
+          <div class="mb-5">
+            <a href="#"><img src="assets/images/list02.jpg" class="img-fluid mb-2"/></a>
+            <a href="#"><img src="assets/images/list04.jpg" class="img-fluid mb-2"/></a>
+            <a href="#"><img src="assets/images/list05.jpg" class="img-fluid mb-2"/></a>
+            <a href="#"><img src="assets/images/list06.jpg" class="img-fluid"/></a>
+          </div>
+          <!-- Banner Ad -->
+          <a href="#" class="hpd hpd-small partner">
+            <div class="hpd-body">
+              <h4 class="hpd-title">High Performance Sites</h4>
+              <p class="hpd-desc">The Ebook on how to Build and Deploy Fast, Scalable Sites!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iste officia facere harum odio architecto eius eaque aperiam rerum impedit? Rerum quae modi eius consequuntur reprehenderit dolorum, ipsa et doloribus.</p>
+            </div>
+            <span href="#" class="hpd-btn">View <span class="hpd-kickstarter">KickStarter</span></span>
+          </a>
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-12 sf-playlist mt-4 mb-0">
+          <div class="row">
+            <div class="col-lg-5 col-md-12 mb-3">
+              <input class="form-control sf-input bg-dark" placeholder="Search Music, Albums, Artists, Movies"/>
+              <span class="fa fa-search sf-input-search bg-dark"></span>
+            </div>
+            <div class="col-lg-3 col-md-5 mb-3">
+              <button class="btn btn-outline-success btn-sm btn-block"><span class="fa fa-credit-card mr-2"></span>Subscriptions</button>
+            </div>
+            <div class="col-lg-4 col-md-7 text-right pl-0 mb-3">
+              <div class="dropdown">
+                <button class="btn btn-primary btn-sm dropdown-toggle sf-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-user mr-2"></span>Welcome, ADARSH</button>
+                <div class="dropdown-menu sf-dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item sf-dropdown-item" href="#">Account</a>
+                  <a class="dropdown-item sf-dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item sf-dropdown-item" href="#">Private Session</a>
+                  <a class="dropdown-item sf-dropdown-item" href="#">Subscription Details</a>
+                  <a class="dropdown-item sf-dropdown-item" href="#">Settings</a>
+                  <a class="dropdown-item sf-dropdown-item" href="#">Logout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-4"></div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-2">
+              <h4 class="title label">ALBUM - Single</h4>
+            </div>
+            <div class="col-lg-1 col-md-2 pr-0 mb-2">
+              <button class="btn btn-outline-success btn-block"><span class="fa fa-pause"></span></button>
+            </div>
+            <div class="col-lg-3 col-md-5 pr-0 mb-2">
+              <button class="btn btn-outline-danger btn-block"><span class="fa fa-user mr-2"></span>Follow PSY</button>
+            </div>
+            <div class="col-lg-2 col-md-2 text-right mb-2">
+              <button class="btn btn-info btn-block"><span class="fa fa-share"></span></button>
+            </div>
+          </div>
+          <!-- Song Details Tabs -->
+          <div class="mb-3 pb-2"></div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <a href="#" class="sf-link active">GENERAL</a>
+              <a href="#" class="sf-link">FANS CHOICES</a>
+              <a href="#" class="sf-link">INFORMATION</a>
+              <a href="#" class="sf-link">LYRICS</a>
+              <a href="#" class="sf-link">SHARE</a>
+            </div>
+          </div>
+          <!-- Song Details -->
+          <div class="mb-4"></div>
+          <div class="row">
+            <div class="col-lg-2 col-md-12 col-12 mb-3">
+              <img src="assets/images/list01.jpg" class="img-fluid" />
+            </div>
+            <div class="col-lg-10 col-md-10 col-12 mb-3">
+              <h2 class="title mt-0 mb-3">GANGNAM STYLE (강남스타일)</h2>
+              <button class="btn btn-dark"><span class="fa fa-heart-o"></span></button>
+              <button class="btn btn-dark"><span class="fa fa-ellipsis-h"></span></button>
+              <div class="details mt-4">
+                <img src="assets/images/artist01.jpg" height="27" width="27" class="img-fluid" />
+                <a href="#"><span class="label ml-2">PSY</span></a>
+                <span class="label">2012</span>
+                <span class="label">10 Songs</span>
+                <span class="label">35 Mins 37 Secs</span>
+              </div>
+            </div>
+          </div>
+          <!-- List of Songs -->
+          <div class="mb-2"></div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div style="height: 320px; overflow: auto;">
+                <table class="table">
+                  <thead>
+                    <th>#</th>
+                    <th>TITLE</th>
+                    <th>Wishlist</th>
+                    <th><span class="fa fa-thumbs-up"></span></th>
+                    <th>Duration</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 1</td>
+                      <td><span class="fa fa-heart red"></span></td>
+                      <td></td>
+                      <td>7:30</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 2</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td>500</td>
+                      <td>4:35</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 3</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td>106</td>
+                      <td>7:00</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 4</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td></td>
+                      <td>2:57</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 5</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td></td>
+                      <td>4:40</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 6</td>
+                      <td><span class="fa fa-heart red"></span></td>
+                      <td>2050</td>
+                      <td>6:21</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 7</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td></td>
+                      <td>3:29</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 8</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td></td>
+                      <td>5:59</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 9</td>
+                      <td><span class="fa fa-heart-o"></span></td>
+                      <td></td>
+                      <td>3:39</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>TEST SONG... LOREM IPUSM SONG 10</td>
+                      <td><span class="fa fa-heart red"></span></td>
+                      <td>600</td>
+                      <td>4:40</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <p class="mb-2 label font-size-13">January 1, 2012</p>
+            <p class="mb-0 title font-size-13">© 2012 Schoolboy/Universal Republic Records, a division of UMG Recordings, Inc.</p>
+          </div>
+          <!-- Popular Releases -->
+          <h4 class="title mt-5 mb-3">Popular Releases By PSY</h4>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album03.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 1</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2012</span>
+                      <span class="label2">5 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album04.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 2</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2014</span>
+                      <span class="label2">2 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/ep01.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">EP 1</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2005</span>
+                      <span class="label2">EP</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/single01.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">SINGLE 1</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2008</span>
+                      <span class="label2">Single</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album03.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 3</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2019</span>
+                      <span class="label2">7 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album03.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 4</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2020</span>
+                      <span class="label2">1 Song</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/single02.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">SINGLE 2</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2009</span>
+                      <span class="label2">Single</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album04.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 5</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2020</span>
+                      <span class="label2">2 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album04.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 6</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2023</span>
+                      <span class="label2">1 Song</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Popular Albums -->
+          <h4 class="title mt-4 mb-3">Popular Albums By PSY</h4>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album03.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 1</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2012</span>
+                      <span class="label2">5 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album04.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 2</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2014</span>
+                      <span class="label2">2 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album03.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 3</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2019</span>
+                      <span class="label2">7 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album03.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 4</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2020</span>
+                      <span class="label2">1 Song</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album04.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 5</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2020</span>
+                      <span class="label2">2 Songs</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/album04.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">ALBUM 6</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2023</span>
+                      <span class="label2">1 Song</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Popular EPs & Singles -->
+          <h4 class="title mt-4 mb-3">Popular EPs & Singles By PSY</h4>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/ep01.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">EP 1</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2005</span>
+                      <span class="label2">EP</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/single01.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">SINGLE 1</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2008</span>
+                      <span class="label2">Single</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-4 col-6 pl-0 mb-3">
+                <div class="card p-2">
+                  <a href="#"><img class="card-img-top" src="assets/images/single02.jpg" alt="Card image cap"></a>
+                  <div class="card-body px-0 pt-3 pb-1">
+                    <h6 class="card-title"><a href="#" class="title">SINGLE 2</a></h6>
+                    <p class="card-text">
+                      <a href="#"><span class="label2">PSY</span></a>
+                      <span class="label2">2009</span>
+                      <span class="label2">Single</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Footer -->
+          <footer class="mt-5 mb-4">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-3">
+                <div class="footer-pad">
+                  <h6 class="mb-3">Footer Heading 1</h6>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Payment Center</a></li>
+                    <li><a href="#">Contact Directory</a></li>
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">News and Updates</a></li>
+                    <li><a href="#">FAQs</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-3">
+                <div class="footer-pad">
+                  <h6 class="mb-3">Footer Heading 2</h6>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-3">
+                <div class="footer-pad">
+                  <h6 class="mb-3">Footer Heading 3</h6>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Parks and Recreation</a></li>
+                    <li><a href="#">Public Works</a></li>
+                    <li><a href="#">Police Department</a></li>
+                    <li><a href="#">Fire</a></li>
+                    <li><a href="#">Mayor and City Council</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-3">
+                <h6 class="mb-3">Follow Us</h6>
+                <ul class="social-network social-circle">
+                  <li><a href="#" class="icoFacebook" title="Facebook"> <i class="fa fa-facebook"> </i></a></li>
+                  <li><a href="#" class="icoLinkedin" title="Linkedin"> <i class="fa fa-linkedin"> </i></a></li>
+                  <li><a href="http://bit.ly/2mMt1ll" title="YouTube" target="_blank"><i class="fa fa-youtube" aria-hidden="true"> </i></a></li>
+                </ul>
+              </div>
+            </div>
+            <hr class="mt-1" />
+            <div class="row">
+              <div class="col-md-12 copy mt-2">
+                <p class="text-left mb-0">©Copyright 2023 - <a href="https://https://github.com/ImAdarsh19" target="_blank"><b>ADARSH MAHAPATRA</b></a>. All Rights Reserved.</p>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12 sf-gray-primary">
+          <div class="my-4">
+            <h5 class="label-header mb-3 pb-2">Look What Your Friends Listing</h5>
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-12">
+                <div class="card mt-1 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">Danny McLoan</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>Playlist New</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">ADARSH</a></h6>
+                        <p class="mb-1 title">Thunder</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>MUSIC GEN</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">New User</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>My Playlist</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">Danny McLoan</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>Playlist New</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">ADARSH</a></h6>
+                        <p class="mb-1 title">Thunder</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>MUSIC GEN</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">New User</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>My Playlist</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">Danny McLoan</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>Playlist New</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">ADARSH</a></h6>
+                        <p class="mb-1 title">Thunder</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>MUSIC GEN</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">New User</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>My Playlist</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mt-2 p-2">
+                  <div class="card-body p-0">
+                    <div class="d-flex text-black">
+                      <div class="col-3 pl-0">
+                        <a href="#"><img src="assets/images/avatar01.jpg" alt="Generic placeholder image" class="img-fluid" /></a>
+                      </div>
+                      <div class="col-9 pl-0 text-left">
+                        <h6 class="mb-1"><a href="#" class="text-muted">Danny McLoan</a></h6>
+                        <p class="mb-1 title">Despacito (Featuring Daddy Yankee)</p>
+                        <p class="mb-0 title"><a href="#" class="label"><span class="fa fa-music mr-2 font-size-13"></span>Playlist New</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-outline-info btn-sm mt-3 meet-friends">Meet Your Other Friends</button>
+          </div>
+        </div>
+      </div>
+      <div class="row sf-gray-secondary py-3">
+        <div class="col-2">
+          <label class="font-weight-bold title">GANGNAM STYLE (강남스타일) <span class="fa fa-heart red ml-2"></span></label>
+          <label class="font-weight-bold mb-0">ALBUM - Single</label>
+        </div>
+        <div class="col-8">
+          <div class="text-center">
+            <button class="btn sf-btn-control label"><span class="fa fa-random"></span></button>
+            <button class="btn sf-btn-control label"><span class="fa fa-step-backward"></span></button>
+            <button class="btn sf-btn-control label"><span class="fa fa-play sf-btn-play"></span></button>
+            <button class="btn sf-btn-control label"><span class="fa fa-step-forward"></span></button>
+            <button class="btn sf-btn-control label"><span class="fa fa-retweet"></span></button>
+            <div class="progress sf-progress mt-2">
+              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="mt-2">
+            <button class="btn sf-btn-control label"><span class="fa fa-list"></span></button>
+            <button class="btn sf-btn-control label"><span class="fa fa-laptop"></span></button>
+            <button class="btn sf-btn-control label"><span class="fa fa-volume-up"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
